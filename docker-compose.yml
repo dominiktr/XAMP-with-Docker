@@ -1,0 +1,12 @@
+version: '3'
+services:
+  xampp:
+    build: ./
+    container_name: xampp
+    volumes:
+      - C:\www:/opt/lampp/htdocs/www
+    ports:
+      - 1080:80
+      - 1443:443
+      - 4306:3306
+    
