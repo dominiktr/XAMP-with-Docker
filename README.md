@@ -1,6 +1,8 @@
 # XAMPP with Docker
 Build and run a Dockerized setup that includes XAMPP.
 
+You can find it on Docker Hub: https://hub.docker.com/r/domintr/xampp
+
 Create <code>C:/www</code> folder and place your websites there.
 
 Ports used:<br>
